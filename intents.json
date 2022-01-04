@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for visiting kjsieit.somaiya.edu",
+        "Hi there, welcome to KJSIEIT website",
+        "Hello, how can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "branches",
+      "patterns": [
+        "Which branches do you have?",
+        "What kinds of branches are there?",
+        "What branches I can take admission in?"
+      ],
+      "responses": [
+        "We have Computer, IT, EXTC, ETRX and AIDS branches",
+        "One can take admission in Computer, IT, EXTC, ETRX and AIDS branches"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Demand Drafts, Mastercard and Paypal",
+        "We accept most major credit cards, Demand Drafts and Paypal"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "what is the college address?",
+        "where is the college located?",
+        "Can I get the college address?"
+      ],
+      "responses": [
+        "The college location is Somaiya Ayurvihar Complex Eastern Express Highway Near Everard Nagar, Sion East, Mumbai, Maharashtra 400022",
+        "You can visit the college by following the address Somaiya Ayurvihar Complex Eastern Express Highway Near Everard Nagar, Sion East, Mumbai, Maharashtra 400022"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what are the available courses?",
+        "what courses can I take admission to?",
+        "What kinds of courses are there?"
+      ],
+      "responses": [
+        "We offer various Under graduate and Post graduate courses.",
+        "One can take admission to one of the Under graduate and Post graduate courses"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "what is the college fees?",
+        "what amount am I expected to pay for fees?",
+        "How much to be paid?"
+      ],
+      "responses": [
+        "The fees ranges from 1.5 to 1.8 Lacs for Under graduate and 1.8 to 2 Lacs for Post graduate courses",
+        "The Undergraduate courses cost from 1.5 to 1.8 Lacs and Post graduate courses cost from 1.8 to 2 Lacs"
+      ]
+    }
+  ]
+}
